@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #C8C6C6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #C8C6C6;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #F0A500;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color:#F0A500;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header ul li a { 
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.section-title {
+    font-size: 55px;
+    display: inline-block;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    margin-bottom: 35px;
+    color: #350B40;
+}
+
+.hero {
+    background-image: url("../images/santorini.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-form {
+    border: 3px solid #C8C6C6;
+    background-color: #350B40;
+    padding: 20px;
+    width: 500px;
+    color: #C8C6C6;
+    position: absolute;
+    bottom: 185px;   
+    left: 0px;  
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #C8C6C6;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #C8C6C6;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: #350B40;
+    background-color: #C8C6C6;
+    border: none; 
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* HERO STYLE ENDS */
+
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #C8C6C6;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.chef {
+    text-align: center;
+    background: #350B40;
+}
+
+.primary-border {
+    border-color: #350B40;
+} 
+
+.secondary-border {
+    border-color: #C8C6C6;
+}
+
+
